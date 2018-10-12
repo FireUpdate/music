@@ -1,0 +1,19 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "Public MusicBot! Brought To You By Fire Developers!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "node.js": "0.0.0",
+    "simple-youtube-api": "^5.0.2",
+    "node-opus": "^0.3.0",
+    "ytdl-core": "^0.26.0"
+  }
+}
