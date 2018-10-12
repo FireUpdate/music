@@ -1,6 +1,6 @@
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
-const youtube = new YouTube('AIzaSyCASIIgKQPayeIbfiNFOCkN9Gn6AmR5CUI'); 
+const youtube = new YouTube(process.env.YTOKEN); 
 const queue = new Map();
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -191,4 +191,4 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 Start playing: **${song.title}**`);
 }
 
-client.login("NDk3NjkwOTk5NjQwOTQ4NzM2.Dpi2iw.Luo3jRELs8o_8PpdTkTY30xjMjw");
+client.login(Process.env.TOKEN);
